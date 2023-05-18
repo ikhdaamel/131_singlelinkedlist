@@ -161,6 +161,22 @@ int main() {
 					system("cls");
 					break;
 				}
+
+				int nim;
+				cout << "masukan NIM : ";
+				cin >> nim;
+				if (deleteNode(nim)) {
+					cout << "nim : " << nim << "berhasil dihapus" << endl;
+					system("pause");
+					system("cls");
+				}
+
+				else
+					cout << "data tidak ditemukan" << endl;
+				break;
+			case 3:
+				traverse();
+				break;
 			}
 		}
 	}
