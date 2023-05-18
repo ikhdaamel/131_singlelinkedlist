@@ -184,5 +184,9 @@ int main() {
 				break;
 			}
 		}
-	}
+		catch (exception e)
+		{
+			cout << "terjadi kesalahan" << endl;
+		}
+	} while (pilihan != 5);
 }
