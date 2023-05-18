@@ -131,3 +131,21 @@ void searchData() {
 		cout << "Data tidak ditemukan" << endl;
 	}
 }
+
+int main() {
+	int pilihan;
+	do
+	{
+		try
+		{
+			cout << "1. tambah data" << endl;
+			cout << "2. hapus data" << endl;
+			cout << "3. tampilkan data" << endl;
+			cout << "4. cari data" << endl;
+			cout << "5. keluar" << endl;
+			cout << "pilihan : ";
+			cin >> pilihan;
+			switch (pilihan)
+		}
+	}
+}
