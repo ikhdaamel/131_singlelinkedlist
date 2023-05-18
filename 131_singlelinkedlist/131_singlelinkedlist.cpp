@@ -146,6 +146,22 @@ int main() {
 			cout << "pilihan : ";
 			cin >> pilihan;
 			switch (pilihan)
+			{
+			case 1:
+				addNode();
+				cout << "dta berhasil ditambahkan" << endl;
+				system("pause");
+				system("cls");
+				break;
+			case 2:
+				if (listEmpty())
+				{
+					cout << "list kosong" << endl;
+					system("pause");
+					system("cls");
+					break;
+				}
+			}
 		}
 	}
 }
